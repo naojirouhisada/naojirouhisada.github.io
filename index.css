@@ -1,0 +1,12 @@
+#pageBody .introduction:after{
+    content:"";
+    clear: both;
+    display:block;
+    
+}
+
+#pageBody .introduction section{
+    float: left;
+    border:solid 1px #000000;
+    margin: 40px;
+}
