@@ -4,14 +4,25 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>ABOUT</title>
+    <title>HOME</title>
     <link rel="stylesheet" href="index.css" />
     <!-- BootstrapのCSSの読み込み -->
     <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
     <!-- jQuery読み込み -->
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="jquery.bxslider/jquery.bxslider.js"></script>
+    <link rel="stylesheet" href="jquery.bxslider/jquery.bxslider.css">
     <!-- BootstrapのJS読み込み -->
     <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
+    <script>
+    $(document).ready(function(){
+      $('.bxslider').bxSlider({
+        auto: true,
+        speed:1000,
+        pause:4000,
+      });
+    });
+    </script>
   </head>
   
   <body>
@@ -43,28 +54,88 @@
       <ol class="breadcrumb">
         <li class="active">HOME</li>
       </ol>
-      <section class="introduction">
-        <section class="introduction1">
-          <h3>作品1</h3>
-          <p>簡単な作品紹介</p>
-        </section>
-    
-        <section class="introduction2">
-          <h3>作品2</h3>
-          <p>簡単な作品紹介</p>
-        </section>
-    
-        <section class="introduction3">
-          <h3>作品3</h3>
-          <p>簡単な作品紹介</p>
-        </section>
-        
-        <section class="introduction4">
-          <h3>作品4</h3>
-          <p>簡単な作品紹介</p>
-        </section>
-    
+      
+      <section class="mainVisual">
+        <ul class="bxslider">
+          <li>
+            <div class="mainVisualText">
+              <h1>作品1</h1>
+              <p>簡単な作品紹介</p>
+            </div>
+            <img src="production/production1.png" width="980" height="500" alt="作品1">
+          </li>
+          
+          <li>
+            <div class="mainVisualText">
+              <h1>作品2</h1>
+              <p>簡単な作品紹介</p>
+            </div>
+            <img src="production/production2.png" width="980" height="500" alt="作品2">
+          </li>
+          <li>
+            <div class="mainVisualText">
+              <h1>作品3</h1>
+              <p>簡単な作品紹介</p>
+            </div>
+            <img src="production/production3.png" width="980" height="500" alt="作品3">
+          </li>
+          <li>
+            <div class="mainVisualText">
+              <h1>作品1</h1>
+              <p>簡単な作品紹介</p>
+            </div>
+            <img src="production/production4.jpg" width="980" height="500" alt="作品4">
+          </li>
+        </ul>
       </section>
+      
+      
+      <section class="portfolioIndex">
+        <article>
+          <a href="production/product/product1.html">
+            <img src="production/production1.png" width="300" height="163" alt="作品1">
+          </a>
+          <a href="production/product/product1.html">
+            <h2>作品1</h2>
+          </a>
+            <p>簡単な作品紹介</p>
+        </article>
+        
+        <section class="portfolioIndex">
+        <article>
+          <a href="production/product/product2.html">
+            <img src="production/production2.png" width="300" height="163" alt="作品2">
+          </a>
+          <a href="production/product/product2.html">
+            <h2>作品2</h2>
+          </a>
+            <p>簡単な作品紹介</p>
+        </article>
+        
+        <section class="portfolioIndex">
+        <article>
+          <a href="production/product/product3.html">
+            <img src="production/production3.png" width="300" height="163" alt="作品3">
+          </a>
+          <a href="production/product/product3.html">
+            <h2>作品3</h2>
+          </a>
+            <p>簡単な作品紹介</p>
+        </article>
+        
+        <section class="portfolioIndex">
+        <article>
+          <a href="production/product/product4.html">
+            <img src="production/production4.jpg" width="300" height="163" alt="作品4">
+          </a>
+          <a href="production/product/product4.html">
+            <h2>作品4</h2>
+          </a>
+            <p>簡単な作品紹介</p>
+        </article>
+      </section>
+      
+    
     </div>
     
     
