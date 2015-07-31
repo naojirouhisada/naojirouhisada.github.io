@@ -15,12 +15,10 @@
 }
 
 #pageBodyMain{
-    width:720px;
     float:left;
 }
 
 #pageBodySub{
-    width:220px;
     float:right;
 }
 
@@ -56,12 +54,10 @@
 
 #pageBpdy .articleList a,
 .articleListText{
-    width:370px;
     float:right;
 }
 
 #pageBodyMain .articleList a .articleListImage{
-    width:300px;
     float:left;
 }
 
