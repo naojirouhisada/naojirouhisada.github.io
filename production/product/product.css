@@ -23,6 +23,8 @@
 
 .articleDetailHead{
     border-bottom: 1px solid #cccccc;
+    margin-bottom:30px;
+    padding-bottom:15px;
 }
 
 .articleDetailHead .pageTitle{
@@ -38,6 +40,13 @@
 
 .articleDetailBody{
     border-bottom:1px solid #cccccc;
+    margin-bottom:30px;
+    padding-bottom:15px;
+}
+
+.articleDetailBody section{
+    margin-top:10px;
+    padding-top:5px;
 }
 
 .articleDetailBody h2{
@@ -45,6 +54,8 @@
     color:#1e90ff;
     border-bottom:1px solid #1e90ff;
     padding:5px;
+    margin-bottom:10px;
+    padding-bottom:5px;
 }
 
 .articleDetailBody h3{
@@ -54,13 +65,19 @@
     padding-left:5px;
 }
 
+.articleDetailBody p{
+    margin-top:5px;
+}
+
+#pageBodySub .localNavi ul li{
+    margin-bottom:15px;
+}
+
 .copyright{
+    margin-top:15px;
     border-top: 1px solid #cccccc;
     padding:20px;
     background-color:#cccccc;
     text-align:center;
 }
 
-#pageBodySub .localNavi ul li{
-    margin-bottom:15px;
-}
