@@ -61,6 +61,12 @@
 
 #pageBody .portfolioIndex article h2{
     font-size:18px;
+    color:#999966;
+    text-decoration:underline;
+}
+
+#pageBody .portfolioIndex article h2:hover{
+    color: #996600;
 }
 
 #pageBody .portfolioIndex article p{

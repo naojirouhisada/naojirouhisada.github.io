@@ -73,6 +73,15 @@
     margin-bottom:15px;
 }
 
+#pageBodySub .localNavi ul li a{
+    color:#999966;
+     text-decoration:underline;
+}
+
+#pageBodySub .localNavi ul li a:hover{
+    color: #996600;
+}
+
 .copyright{
     margin-top:15px;
     border-top: 1px solid #cccccc;
