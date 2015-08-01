@@ -1,0 +1,36 @@
+ body{
+     font-size: 14px;
+}
+            
+.row{
+    margin-bottom: 50px;
+}
+
+.icon{
+    text-align: center;
+    
+}
+    
+.icon .glyphicon{
+    margin-bottom: 10px;
+    font-size: 40px;
+    color: #777;
+}
+        
+.content h2{
+    margin-top: 0;
+    padding-bottom: 15px;
+}
+            
+.content p{
+    margin-bottom: 30px;
+    
+}
+            
+.copyright{
+    margin-top:15px;
+    border-top: 1px solid #cccccc;
+    padding:20px;
+    background-color:#cccccc;
+    text-align:center;
+}
